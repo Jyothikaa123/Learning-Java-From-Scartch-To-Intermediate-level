@@ -20,8 +20,9 @@ Every Java Program has :-
 Example with code:-
 class ClassName{ 
 public static vid main(String[]args){
-System.out.println("Hi This is Jyothikaa")
-}}
+System.out.println("Hi This is Jyothikaa");
+}} 
+try the above code you can write in (System.out.println) this your name or anything like what you the output  
 //this is the main function using static it is class itself not the object it helps the program to run without creating the object void:-print something without giving any value back
 here ClassName is the Program Name
 String[] args:
