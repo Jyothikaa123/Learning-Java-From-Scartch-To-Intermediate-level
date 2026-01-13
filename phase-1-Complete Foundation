@@ -2,7 +2,8 @@ What is Java?
 It is High Level Programing Language and Object-Oriented ,Platform independent 
 Platform independent-The Program that runs on different platforms without changing the code
 Why Java is platform independent :-Java follows the rule:-WORA:-Wright Once Run Anywhere So that's the reason for java is platform independent
-️ JDK, JRE, JVM (Students fear this — let’s simplify)
+️
+JDK, JRE, JVM (Students fear this — let’s simplify)
 JVM (Java Virtual Machine)
 Runs Java programs
 Exists inside your computer
@@ -12,16 +13,19 @@ Needed to run Java programs
 JDK (Java Development Kit)
 JRE + compiler
 Needed to write & run Java programs
+
 Structure of Java Program?
 Every Java Program has :-
 1.class:-blueprint of the object
 2.A main method
 3.Statements inside the main
+
 Example with code:-
 class ClassName{ 
 public static vid main(String[]args){
 System.out.println("Hi This is Jyothikaa");
 }} 
+
 try the above code you can write in (System.out.println) this your name or anything like what you the output  
 //this is the main function using static it is class itself not the object it helps the program to run without creating the object void:-print something without giving any value back
 here ClassName is the Program Name
