@@ -1,0 +1,106 @@
+Variables in Java?
+A Variable is a named memory location used to store data
+Simple definition:
+Variable = name + value + type
+int age = 20;
+int=data type
+age=variable name 
+= :-operator
+20=value
+;:-semi colon which ends the line
+Why Do We Need Variables?
+Because programs work with data, and data must be:
+stored,modified,reused
+Without variables, programs are useless.
+Types of variables in java?
+1.Local Variables:-Declared inside a method or block,Used only within that method,Must be initialized before use it stored in stack
+2.Instance variables:-Declared inside class, outside methods,Belong to object,Each object has its own copy,it stores in the heap
+3.Static variables:-Declared using static,Belong to class,Single copy shared by all objects ,acts as a global
+example with code for this three:-
+
+class Demo {
+    static int a = 10;   // static variable
+    int b = 20;          // instance variable
+
+    public static void main(String[] args) {
+        int c = 30;     // local variable
+
+        Demo d = new Demo();
+        System.out.println(a);
+        System.out.println(d.b);
+        System.out.println(c);
+    }
+}
+compare the code with above definitions you understands more type the program dont copy it (//)refers the comment it will not compile by the compiler 
+
+Data Types:-
+Every variable must have a type.
+Two types of Data Types
+1️.Primitive Data Types
+2️. Non-Primitive (Reference) Data Types
+1️. Primitive Data Types (8 types)
+
+Used to store simple values.
+
+  Data Type   Size      Example                 Use                                           
+  
+ `byte`      1 byte    `byte b = 10;`           Used for  memory saving  in large arrays    
+ `short`     2 bytes   `short s = 200;`         Used when `int` is too large                  
+ `int`       4 bytes   `int x = 25;`            Used to store integers / whole numbers    
+ `long`      8 bytes   `long l = 100000L;`      Used for  very large integers              
+ `float`     4 bytes   `float f = 2.5f;`        Used for decimal numbers (less precision)
+ `double`    8 bytes   `double d = 2.55;`       Used for decimal numbers (high precision) 
+ `char`      2 bytes   `char c = 'A';`          Used to store  single characters           
+ `boolean`   1 bit     `boolean flag = true;`   Used for true / false conditions          
+
+
+ Most used: int, double, char, boolean
+Easy Memory Trick 
+Whole numbers :- int
+Large numbers :- long
+Decimal values :- double
+Characters :- char
+Conditions :- boolean
+“Java data types define the type and size of data a variable can store and how it is used in a program.”
+Example with code of data types (two):-
+
+class DataTypesDemo {
+
+    public static void main(String[] args) {
+
+        //  Primitive Data Types
+        byte b = 10;
+        short s = 100;
+        int i = 25;
+        long l = 100000L;
+        float f = 2.5f;
+        double d = 5.75;
+        char c = 'A';
+        boolean flag = true;
+
+        System.out.println("Primitive Data Types:");
+        System.out.println("byte: " + b);
+        System.out.println("short: " + s);
+        System.out.println("int: " + i);
+        System.out.println("long: " + l);
+        System.out.println("float: " + f);
+        System.out.println("double: " + d);
+        System.out.println("char: " + c);
+        System.out.println("boolean: " + flag);
+
+        //  Non-Primitive Data Types
+        String name = "Java";
+        int[] numbers = {1, 2, 3, 4, 5};
+
+        System.out.println("\nNon-Primitive Data Types:");
+        System.out.println("String: " + name);
+
+        System.out.print("Array: ");
+        for (int n : numbers) {
+            System.out.print(n + " ");
+        }
+    }
+}
+ this code gives out put of primitive and non-primitive and  in this we are giving values in the code only further comes with user input code which means user gives the value but this with Scanner method further we will learn about it 
+
+
