@@ -1,1 +1,63 @@
+Type casting 
+these are of two types those are:-
+1.Implict Type Casting 
+2.Explict Casting
+Implict Type Casting:- it changes small data type into large data type
+It is Automatic and safe
+No Data Loss
+Order:-
+byte → short → int → long → float → double
 
+Explict Type Casting:- It changes from bigger data type to smaller data type 
+It must be done Manually and data loss
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+class TypeCasting{
+    public static void main(String[]args){
+        int a=25;
+        double b=a;//automatic casting 
+        System.out.println("Implict type Casting");
+         System.out.println("\nBefore casting ");
+        System.out.println("int value " +a);
+         System.out.println("\nAfter casting");
+         
+        System.out.println("double value "+b);
+        
+        //Explict type casting
+        
+        double c=20.98;
+        int d=(int) a;
+         System.out.println("\nExplict type casting");
+          System.out.println("\nBefore casting");
+          
+           System.out.println("double value "+c);
+           System.out.println("\nAfter casting");
+           System.out.println("int value "+d);
+          
+        
+        
+    }
+}
