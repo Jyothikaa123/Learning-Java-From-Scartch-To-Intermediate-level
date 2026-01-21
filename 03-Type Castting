@@ -11,29 +11,7 @@ byte → short → int → long → float → double
 Explict Type Casting:- It changes from bigger data type to smaller data type 
 It must be done Manually and data loss
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Coding :-
 
 class TypeCasting{
     public static void main(String[]args){
@@ -61,3 +39,11 @@ class TypeCasting{
         
     }
 }
+this coding refers both type casting 
+first create class
+then main function using static object
+and then declare small data type int with variable a give the value
+and for bigger data type double with variable declaring b=a it automatically cast into small
+and the print satements +a refers like calling that variable what value you want  keep+ and the write that 
+same for explict but here first declare bigger data type 
+and then do manually int d=(int) a here d reseembles int a means value changes to integer
