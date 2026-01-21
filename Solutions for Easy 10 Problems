@@ -1,1 +1,46 @@
+// Solution of 1st problem
+//without using third variable means we must use operators
+class SwapWithoutThird {
 
+    public static void main(String[] args) {
+
+        int a = 5;
+        int b = 10;
+
+        System.out.println("Before swapping:");
+        System.out.println("a = " + a);
+        System.out.println("b = " + b);
+
+        // Swapping logic
+        a = a + b;//15
+        b = a - b;//5
+        a = a - b;//10
+
+        System.out.println("\nAfter swapping:");
+        System.out.println("a = " + a);
+        System.out.println("b = " + b);
+    }
+}
+vvv
+
+
+
+//using third variable 
+class Swap{
+    public static void main(String[]args){
+        int a=90;
+        int b=67;
+        System.out.println("Before Swaping");
+        System.out.println("Value of a Before Swaping: "+a);
+        System.out.println("Value of b Before Swaping: "+b);
+        
+        int temp=a;//temp=90
+         a=b;//a=67
+        b=temp;//b=90
+        System.out.println("\nAfter swaping");
+        System.out.println("Value of a After swaping: "+a);
+        System.out.println("Value of b After Swaping: "+b);
+        
+        
+    }
+}
