@@ -21,9 +21,6 @@ class SwapWithoutThird {
         System.out.println("b = " + b);
     }
 }
-vvv
-
-
 
 //using third variable 
 class Swap{
@@ -40,7 +37,26 @@ class Swap{
         System.out.println("\nAfter swaping");
         System.out.println("Value of a After swaping: "+a);
         System.out.println("Value of b After Swaping: "+b);
-        
-        
+        }}
+//Second Problem 
+class FindLargest{
+    public static void main(String[]args){
+        int a=90;
+        int b=45;
+        int c=78;
+        if(a>b&&a>c){
+            System.out.println("a is the largest number among b and c ");
+            
+        }
+        else if(b>a&&b>c){
+            System.out.println("b is the largest number among a and c");
+            
+        }
+        else{
+            System.out.println("c is the largest number among b and a");
+            
+        }
     }
 }
+Note:in else should not written anything
+
