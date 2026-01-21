@@ -1,0 +1,15 @@
+EASY PROBLEMS LIST (10)
+Swap two numbers without using a third variable.
+Find the largest of three numbers using if-else.
+Check if a number is prime or not.
+Print Fibonacci series up to n terms.
+Find maximum and minimum in an array.
+Reverse a string without using built-in reverse method.
+Check if a number is an Armstrong number.
+Sort an array using Bubble Sort.
+Print the pattern:
+*
+* *
+* * *
+* * * *
+Two Sum (return indices of two numbers that add up to target).
