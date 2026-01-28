@@ -92,11 +92,54 @@ class PrimeNumber{
         
     }
 }
+
 ok now let us do code break down 
 you know the structure of java creating classthose all
 i am going to the direct logic
 first assign a number 
 and then assume the number is true
 and now contions for false means number must be less than  or equal to 1
-and number should not be divisible by numbers and leaves remainder 
+and number should not be divisible by numbers and leaves remainder 0 
+for this go and chesck for loop first intialization starting with 2 because 1 is not a prime number before we declared it and then condition i<nmeans number upto n from 2 and then i++ means continues (it will add till n)
+in if sstatement n%1=0 means % - it refers to the rremainder when nis divided by i leaves remainder 0 then not a prime 
+break means if we found the divisor then stop right there time will be saved
+if(isPrime) refers to the isPrime == true java will understand in else isPrime== false
+
+//4 th problem 
+//Fibonacci Series
+
+it means adding previous numbers 
+it means if first number 0 and second number 1 
+0 1 now add these both 2
+0 1 2 now add 1 and 2 it gives 3
+0 1 2 3 like this it contiues adding previous numbers 
+
+class FibonacciSeries{
+    public static void main(String[] args) {
+        int n=20;
+        int first=0;
+        int second=1;
+      System.out.print( first+ " " + second+ " ");
+        //here we uses print because we dont want ln next line i want in same line
+        for( int i=3;i<n;i++){
+            int next=first+second;
+            System.out .print(next+ " ");
+            first=second;
+            second=next;
+            
+        }
+    }
+}
+here in this code let us first set how many terms we want and then assing first term and second term as your wish there are no conditions 
+now print first and second i make it same in same line so i used print only 
+we go into the logic i starts with 3 rd term because we gave first and second terms it goes until n 
+then main logic adding previous numbers int next =first +second 
+printing those numbers 
+and then heart of the programing 
+first =second,second=next   means in 0 1 first is 0 second is 1
+by adding becomes 2 = next
+now 1 will become first 2 will become second 
+like this  it continues 
+Note:-Don't forget keeping int in for because for declaring i 
+
 
