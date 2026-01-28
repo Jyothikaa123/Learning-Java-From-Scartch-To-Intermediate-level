@@ -1,6 +1,7 @@
 // Solution of 1st problem
 //without using third variable means we must use operators
-class SwapWithoutThird {
+
+class Swap WithoutThird  { 
 
     public static void main(String[] args) {
 
@@ -58,5 +59,44 @@ class FindLargest{
         }
     }
 }
-Note:in else should not written anything
+Note:In else should not written anything
+
+//3rd problem-Prime number
+//First let us understand what is prime number the number must leaves remainder only when it is divisible by itself means it must not leaves remainder 0 when it is divisible by another number other than itself
+//read it it will make easy for code understanding
+
+class PrimeNumber{
+    public static void main(String[]args){
+        int n=567;
+        boolean isPrime=true;
+        if(n<=1){
+            isPrime=false;
+            
+        }
+        else{
+            for( int i=2;i<n;i++){
+                if(n%i==0){
+                    isPrime=false;
+                    break;
+                }
+            }
+        }
+        if(isPrime){
+            System.out.println(n+ "is a prime number");
+            
+        }
+        else{
+             System.out.println(n+ "is not a prime number");
+             
+        }
+        
+    }
+}
+ok now let us do code break down 
+you know the structure of java creating classthose all
+i am going to the direct logic
+first assign a number 
+and then assume the number is true
+and now contions for false means number must be less than  or equal to 1
+and number should not be divisible by numbers and leaves remainder 
 
