@@ -142,4 +142,25 @@ now 1 will become first 2 will become second
 like this  it continues 
 Note:-Don't forget keeping int in for because for declaring i 
 
+//5th Problem
+//Largest and Smallest number in array
+
+class MinMaxArray {
+    public static void main(String[] args) {
+        int [] arr={90,87,6,89,123,768,76};
+        int max=arr[0]; //assuming to avoid comaparisions
+        int min=arr[0];
+        for( int i=1;i<arr.length;i++){
+        
+        if(arr[i]>max){
+            max=arr[i];
+        }
+        if(arr[i]<min){
+            min=arr[i]; 
+        }}
+    System.out.println  ("Maximum= " +max);
+      System.out.println("Minimum= " +min );
+    }
+}
+
 
