@@ -163,4 +163,58 @@ class MinMaxArray {
     }
 }
 
+//6 th problem with full explanation in output 
+class ReverseStringSteps {
 
+    public static void main(String[] args) {
+
+        String str = "jyothikaa";
+        String reversed = "";
+
+        System.out.println("Original String: " + str);
+        System.out.println("String Length: " + str.length());
+        System.out.println("Starting from index: " + (str.length() - 1));
+        System.out.println("--------------------------------");
+
+        for (int i = str.length() - 1; i >= 0; i--) {
+
+            System.out.println("i = " + i);
+            System.out.println("Character at index " + i + " = " + str.charAt(i));
+
+            reversed = reversed + str.charAt(i);
+
+            System.out.println("Reversed so far = " + reversed);
+            System.out.println("--------------------------------");
+        }
+
+        System.out.println("Final Reversed String: " + reversed);
+    }
+}
+ // 6 th problem only but in output full process wont be there 
+class Reversed{
+    public static void main(String[]args){
+        String str="Jyothikaa";
+        String reversed="";
+        System.out.println("String Before reversed:" +str);
+        for( int i=str.length()-1;i>=0;i--){
+            reversed=reversed+str.charAt(i);
+        }
+            System.out.println("\nReversed String: " +reversed);
+        
+    }
+}
+
+Explanation of this code
+first declaring the string 
+and then declare nothing in reversed
+loop:-first i=str.length()-1 means i=str.lenth means 9 i.e-9-1=8 i.e i=8
+i>=0 this means upto 0 
+i-- this means 8 to 0 (-) should be done
+reversed= reversed+str.charAt(i) this means
+reversed="" so ""+str.charAt(i)(gets the charachter from i) 
+i.e ""+a=a
+a+a=aa
+aa+k=kaa
+kaa+i=ikaa
+... and so on 
+name is your wish 
