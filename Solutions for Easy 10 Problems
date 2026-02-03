@@ -1,5 +1,5 @@
 // Solution of 1st problem
-//without using third variable means we must use operators
+// Swapping without using third variable means we must use operators
 
 class Swap WithoutThird  { 
 
@@ -39,6 +39,7 @@ class Swap{
         System.out.println("Value of a After swaping: "+a);
         System.out.println("Value of b After Swaping: "+b);
         }}
+
 //Second Problem 
 class FindLargest{
     public static void main(String[]args){
@@ -218,3 +219,7 @@ aa+k=kaa
 kaa+i=ikaa
 ... and so on 
 name is your wish 
+
+//7th problem
+//Armstrong number
+,,,,,,
