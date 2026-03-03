@@ -297,3 +297,47 @@ if(sum=num) means sum= orinal number then
 then System.out.println(original + " is an Armstrong number");
 else System.out.println(original + " is NOT an Armstrong number")
 
+Note:- 
+the  every single number is an armstrong number
+some armstrong numbers are:-
+153,370,371,407,54748,92727,93084
+8 th problem 
+Sorting
+sort the given numbers 
+suppose 45,78,89,34,67
+this is not in order so we must keep in order
+34,45,67,78,89
+coding:-
+for bubble sort 
+bubble sort means compare two neighbour numbers 
+if wrong order then swap them
+
+class BubbleSort {
+    public static void main(String[] args) {
+
+        int[] arr = {5, 3, 8, 2};
+        int n=arrr.length;
+        for (int i = 0; i < n - 1; i++) {      // OUTER LOOP
+            for (int j = 0; j < n- 1 - i; j++) {  // INNER LOOP
+
+                if (arr[j] > arr[j + 1]) {
+                    // swap
+                    int temp = arr[j];
+                    arr[j] = arr[j + 1];
+                    arr[j + 1] = temp;
+                }
+            }
+        }
+
+        // print sorted array
+        for (int num : arr) {
+            System.out.print(num + " ");
+        }
+    }
+}
+asuasual class and main function using static object without creating manually
+and then declaring arr with we want numbers we use arr because arr stores multiple numbers
+now we use for loop for counting how many swaps taken
+i refers outer loop
+int i means intializing it to 0 
+and then i must be less than arr.length 
