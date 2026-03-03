@@ -259,8 +259,41 @@ class ArmstrongNumber {
     }
 }
 first declare the number
-then store to the another one
 intialize sum as 0
-and digits of the number also 0
-and then declare num into the temp
+and digits of the number also 0 digits means how many numbers are there
+and then declare num into the temp because the original number will be safe
+use while loop here for while(temp>0) here loop runs until temp becomes 0 
+here temp means num in num digits increases digits++ when temp=temp/10 
+i.e when temp/10 happens then digits will increse till it becomes 0
+again reset temp= num for digit caluculating 
+use while loop again for loop must run until it becomes 0
+now hero comes for this program that is digit here digit means temp%10 gives last digit of the num as we declare again temp= num
+now main plot comes that is sum declare sum =sum+(int)Math.pow(digit,digits)
+in above we caluculted sum by sum intially we declare sum =0 so 0+(int) if double comes it converts to integer we want only integer it is type casting
+and then Mat.pow means power of in maths represents so we use for power of digit power digits 
+like here digit means digit of the number means in 153 3 is the last digit this comes from the %10 by doing this gives the last digit 
+so 3 power digits means how many digits are there in number we are getting this by / 10 removes the last digit and stores how many digits removed from the number until it becomes 0
+so 3power3+5power3+1power3=153 it came again same number so it is armstrong number
+Note:-
+1.temp we uses so original number does not lost
+2.%10 gives last digit
+3./ removes last digit
+for digit:-
+ temp  digit  digit³  sum 
+
+ 153   3      27     27  
+ 15    5      125     152 
+ 1     1      1       153 
+ 0    stop              
+for digits:-
+| temp | digits |
+| ---- | ------ |
+| 153  | 1      |
+| 15   | 2      |
+| 1    | 3      |
+| 0    | stop   |
+now climax came 
+if(sum=num) means sum= orinal number then
+then System.out.println(original + " is an Armstrong number");
+else System.out.println(original + " is NOT an Armstrong number")
 
