@@ -1,2 +1,69 @@
 Hashing :-
 it means converting data into fixed index
+key → hash function → index → store value
+"a" → 97 →  index 2
+"b" → 98 → index 3
+time complexity is O(1)
+it stores the data 
+it access the  data quickly
+avoid searching again and again
+The conversion of data into the indexing is called hashing
+Hash -Based Structures 
+1.Hash Map
+in this key → value
+Example:- name to marks 
+age - number
+character-index
+when we call roll number the students  stands like for every  value there is a key
+for hash map
+import java.util.HashMap;
+Hashmap<Integer,string>map=new HashMap<>();
+here integer is key
+here string is value 
+to insert the value we must use put()
+map.put(1,"Car");
+map.put(2,"Bike");
+for retriving the data we must use get();
+map.get(2);
+here we get index of key 2 value is Bike
+for checking if the value  is exists we must use contains.key();
+map.contains.key(1);
+for removing the data we must use map.remove();
+for knowing the size of the map we must use map.size();
+map.size()
+import java.util.HashMap;
+
+class Frequency {
+    public static void main(String[] args) {
+
+        String s = "aabbc";
+
+        HashMap<Character, Integer> map = new HashMap<>();
+
+        for (int i = 0; i < s.length(); i++) {
+
+            char ch = s.charAt(i);
+
+            if (map.containsKey(ch)) {
+                map.put(ch, map.get(ch) + 1);
+            } else {
+                map.put(ch, 1);
+            }
+        }
+
+        System.out.println(map);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
