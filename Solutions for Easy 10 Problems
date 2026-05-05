@@ -396,7 +396,42 @@ and then we use println for line wise till now row wise over logic over but if w
 so for making it row wise we must use println for making it line by line now it becomes fully correct 
 
 //10 th problem
+Two Sum (Return indices of two numbers that add up to target)
+in this problem we does 
+in the array the sum of two numbers in array must be equal to the target 
 
+class TwoSum {
+    public static void main(String[] args) {
+        int[]arr={9,8,7,6,89,10};
+        int target=17;
+        for(int i=0;i<arr.length;i++){
+            for(int j=i+1;j<arr.length;j++){
+                if(arr[i]+arr[j]==target){
+                    System.out.println(+i+","+j);
+                }
+            }
+        }}}
+Explanation:-
+class name is Two Sum
+method is static 
+first declare the array then declare the target 
+the here it comes the main part 
+loop we use loop here because again it must goes to the next step 
+again and again
+for(int i=0;i<arr.length;i++){
+here i is index 0 or 1 or 2
+for(int j=i+1;j=arr.length;j++){
+here for jis also index we kept j=i+1 means if i=0 then j=1 here 0 and 1 are indexes
+then if (arr[i]+arr[j]==target){
+here we use if statement because if it is correct or not to know here how it uses means here 
+arr[i]=9 (i=0 index)
+arr[j]=8(j=i+1 index)
+arr[i]+arr[j]=9+8=17
+again it checks everything here in given array two indices  gives target by adding 
+
+
+        
+    
 
 
 
