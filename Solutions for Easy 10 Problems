@@ -346,6 +346,58 @@ int i means intializing it to 0
 and then i must be less than arr.length 
 
 //9th problem
+print the star pattern 
+*
+**
+***
+****
+*****
+
+
+class Pattern  {
+    public static void main(String[] args) {
+        int n=5;
+        for(int i=1;i<=n;i++){
+            for(int j=1;j<=i;j++){
+                System.out.print("*");
+            }            
+        System.out.println();
+        }  
+    }
+}
+
+Explanation:-
+class name Pattern
+method static
+they given 5 rows so first we must declare 5 so int n=5;
+now hero is coming i.e loops main part and main logic is loops
+here we use loops to get again and again stars to repeat again
+here for(int i=1;i<=5;i++){ this line refers to the outer loop means it says how many rows must be there
+like how many lines must be there in book
+now inner loop for(int j;j<=i;i++){ this is for in the rows 
+like no of words in the lines  
+here only it decides how many stars must come 
+it  happens like this 
+if i=1 then j=1 then *
+if i=2 then j=1,2 then **
+if i=3 then j=1,2,3 then***
+.........
+like this it decides in a row how many stars should be
+now we mus print the (*) System.out.print("*"); }(close the inner loop ) here this must write only in the inner loop because in inner loop only row wise stars will be there so it must write in inner loop
+if we write in the outer loop then without row wise it will print ***** because i=5 five times it will loop again without any row wise 
+and here we must  use print  because if we use println then it will become
+*
+*
+*
+*
+*
+...... like this  it will become line wise by side wise it must come **,**** like this so we are using print
+and then we use println for line wise till now row wise over logic over but if we stop there then without row it becomes ********
+so for making it row wise we must use println for making it line by line now it becomes fully correct 
+
+//10 th problem
+
+
 
 
 
