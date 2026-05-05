@@ -220,6 +220,7 @@ kaa+i=ikaa
 ... and so on 
 name is your wish 
 
+
 //7th problem
 //Armstrong number
 Armstrong number means 
@@ -301,7 +302,9 @@ Note:-
 the  every single number is an armstrong number
 some armstrong numbers are:-
 153,370,371,407,54748,92727,93084
-8 th problem 
+
+
+//8 th problem 
 Sorting
 sort the given numbers 
 suppose 45,78,89,34,67
@@ -341,3 +344,26 @@ now we use for loop for counting how many swaps taken
 i refers outer loop
 int i means intializing it to 0 
 and then i must be less than arr.length 
+
+//9th problem
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
