@@ -31,6 +31,9 @@ map.contains.key(1);
 for removing the data we must use map.remove();
 for knowing the size of the map we must use map.size();
 map.size()
+
+EXAMPLE:-
+To count the how many letters are there
 import java.util.HashMap;
 
 class Frequency {
@@ -54,6 +57,26 @@ class Frequency {
         System.out.println(map);
     }
 }
+let us discuss about here HashMap 
+we declare HasMap as HashMap<Integer,String>=new HasMap<>();
+first we must import from java in the util hashmap import java.util.HashMap
+then name the class  then satic method 
+And then declare String
+now we must use hahamap structureHashMAp<Character,Integer>=new HashMap<>();
+here in mapping<>first comes key,then value its data type above we are using character by using character we are counting so it must be character then for counting we want integer
+then for loop for(int i=0;i<s.length;i++){
+for getting the char is used for indexing
+char ch=s.charAt(i) this means declaring ch as charAt(i) means what the char at index i that is char  that too in string s
+if(map.containsKey(ch)){ means we declared before ch now we are checking if character is present in the key means
+if a already in map as a key  it says then map.put(ch,map.get(ch)+1); it keeps in the map buy put() ch is the key that charcter which is already therre that will come as map.get(ch) as a integer to that +1
+if it is not there  then else mapp.put(ch,1) means we must put it in the ch,1 because if not there there is no need to the add the count 
+for if we counted how many characters are there 
+Dry Run
+if a contains already in the map then put in the map as a,1+1 because map.get(ch) returns as count like a is already repeated so 1 
+last print the map "," returns as = in HashMap
+
+
+
 
 
 
