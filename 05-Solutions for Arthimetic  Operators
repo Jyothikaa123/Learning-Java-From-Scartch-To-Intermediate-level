@@ -1,0 +1,116 @@
+1st Solution
+import java.util.Scanner;
+public class DivisibilityCheck{
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        int a=sc.nextInt();
+        if(a%3==0&&a%5==0){
+        System.out.println("Number is divisible by 3 and 5");
+
+        }
+        else{
+            System.out.println("Given number is not divisible 3 and 5");
+
+        }
+        sc.close();
+        
+    }}
+
+//2nd solutiion
+import java.util.Scanner;
+public class SevenRemainder{
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        int a=sc.nextInt();
+        int b=a%7;
+        System.out.println("The remainder that divisible by 7 is"+b);
+
+        
+        sc.close();
+        
+    }}
+
+//3rd solution
+
+import java.util.Scanner;
+public class EvenOdd{
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        int a= sc.nextInt();
+        System.out.println((a%2==0)?"Even":"Odd");
+        sc.close();
+    }}
+here  System.out.println((a%2==0)?"Even":"Odd"); this means we are using ternary operator it means 
+we use this for instead of if else in one line  code will be over (a%2==0)? this is condition "Even":"Odd" if yes it prints even if false it prints odd
+
+//4 th solution
+import java.util.Scanner;
+public class LastDigit{
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        int a=sc.nextInt();
+        
+        System.out.println(a%10);
+        sc.close();
+        
+    }}
+
+//5th question
+import java.util.Scanner;
+public class LastSecond{
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        int a=sc.nextInt();
+        
+        System.out.println(a%100);
+
+        
+        sc.close();
+        
+    }}
+
+//sum of the digits in a number
+import java.util.Scanner;
+public class Trail {
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        int a=sc.nextInt();
+        
+        System.out.println(a/10+a%10);
+
+        
+        sc.close();
+        
+    }}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
